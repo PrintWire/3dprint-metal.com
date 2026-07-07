@@ -1,0 +1,16 @@
+baseURL = "https://3dprint-metal.com/"
+languageCode = "en-us"
+title = "3DPRINT METAL"
+
+[params]
+  description = "Metal additive manufacturing news, research, and services. DMLS, SLM, EBM coverage for aerospace, medical, and industrial applications."
+  siteName = "3DPRINT METAL"
+  tagline = "The authoritative source for metal additive manufacturing news"
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
